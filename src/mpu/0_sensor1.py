@@ -7,7 +7,7 @@ VCC → Pin 38
 """
 
 """
-example use
+example use (公制单位 m/s^2)
 """
 import utime
 from machine import I2C, Pin
