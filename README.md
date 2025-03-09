@@ -1,17 +1,27 @@
 # SmartGlove
-An AI-powered and raspberrypi-pico based smart glove
 
-## Recognize the gestures
+This project aims to design a smart glove that can ultimately recognize sign language and provide real-time translation.
 
-Now the first stage is to recognize "Arm Up" and "Arm Down".
+## Prototype and Gesture Recognition
 
-The 9-axis sensor will be put on the forearm.
+In the first phase, this project will complete a smart glove that can recognize gestures.
 
-This step has finished primarily.
+The project adopts a ROS architecture, with Ubuntu 22.04 and ROS Humble installed on both Raspberry Pi 4B and PC (virtual machine) to facilitate future expansion and implementation of complex functions.
 
-### Framework
+The configuration structure is as follows:
 
-This project uses ROS Humble as the framework, to efficiently connect PC and the smart glove.
+<img src="docs/readme/v1/framework.png" alt="Framework Structure" width="450"/>
 
-### IMU Detector
+The physical prototype looks like this:
 
+<img src="docs/readme/v1/prototype.jpg" alt="Physical Prototype" width="350"/>
+
+The code deployed on the Raspberry Pi 4B is stored separately in the following repository:
+
+https://github.com/jeffliulab/SmartGlove_GloveSide
+
+### Recognize the gestures
+
+Using gravity detection from the MPU9250, we've implemented UP and DOWN detection:
+
+<img src="docs/readme/v1/detect_1.png" alt="Upward Detection" width="350"/> <img src="docs/readme/v1/detect_2.png" alt="Downward Detection" width="350"/>
