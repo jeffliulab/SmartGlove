@@ -2,8 +2,6 @@
 
 This project aims to design a smart glove that can ultimately recognize sign language and provide real-time translation.
 
-This is a project in collaboration with Qina Li, a UX Designer and Researcher.
-
 This is a project in collaboration with [Qian Li](https://www.qianliportfolio.com/project2), a UX Designer and Researcher.
 
 
