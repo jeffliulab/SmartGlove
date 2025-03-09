@@ -12,6 +12,7 @@ In the first phase, this project will complete a smart glove that can recognize 
 The project adopts a ROS architecture, with Ubuntu 22.04 and ROS Humble installed on both Raspberry Pi 4B and PC (virtual machine) to facilitate future expansion and implementation of complex functions.
 
 The configuration structure is as follows:
+- [Demo Video](https://youtube.com/shorts/qYl0_Sqa9_Q?si=NIhDoCjUwTQr8ySr)
 
 <img src="docs/readme/v1/framework.png" alt="Framework Structure" width="450"/>
 
