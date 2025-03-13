@@ -4,6 +4,7 @@ This project aims to design a smart glove that can ultimately recognize sign lan
 
 This is a project in collaboration with [Qian Li](https://www.qianliportfolio.com/project2), a UX Designer and Researcher.
 
+At meanwhile, this project is also collaborated with an IoT platform, which is an ongoing project at Brandeis Robotics Lab.
 
 ## Prototype and Gesture Recognition
 
@@ -12,9 +13,14 @@ In the first phase, this project will complete a smart glove that can recognize 
 The project adopts a ROS architecture, with Ubuntu 22.04 and ROS Humble installed on both Raspberry Pi 4B and PC (virtual machine) to facilitate future expansion and implementation of complex functions.
 
 The configuration structure is as follows:
+
 - [Demo Video](https://youtube.com/shorts/qYl0_Sqa9_Q?si=NIhDoCjUwTQr8ySr)
 
 <img src="docs/readme/v1/framework.png" alt="Framework Structure" width="450"/>
+
+The ROS framework is:
+
+<img src="docs/readme/v1/ros.png" alt="Framework Structure" width="450"/>
 
 The physical prototype looks like this:
 
