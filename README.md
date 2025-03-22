@@ -1,10 +1,10 @@
 # SmartGlove
 
-This project aims to design a smart glove that can ultimately recognize sign language and provide real-time translation.
+This project aims to design a smart glove that can do many things, includes recognize gestures, real-to-sim in virtual environment, control devices, etc.
 
-This is a project in collaboration with [Qian Li](https://www.qianliportfolio.com/project2), a UX Designer and Researcher.
-
-At meanwhile, this project is also collaborated with an IoT platform, which is an ongoing project at Brandeis Robotics Lab.
+In first stage, the project will collabrate with other teams to explore the potential and capbalities, all together aim to build an universal smart glove.
+- Collaborate with [Qian Li](https://www.qianliportfolio.com/project2), on Sign Language Recognition.
+- Collaborate with project team at Brandeis Robotics Lab, on [IoT platform](https://github.com/aiberk/embedded-systems-platform).
 
 ## Prototype and Gesture Recognition
 
