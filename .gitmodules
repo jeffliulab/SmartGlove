@@ -1,0 +1,3 @@
+[submodule "glove_submod"]
+	path = glove_submod
+	url = https://github.com/jeffliulab/SmartGlove_GloveSide.git
