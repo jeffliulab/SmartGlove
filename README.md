@@ -6,7 +6,9 @@ In first stage, the project will collabrate with other teams to explore the pote
 - Collaborate with [Qian Li](https://www.qianliportfolio.com/project2), on Sign Language Recognition.
 - Collaborate with project team at Brandeis Robotics Lab, on [IoT platform](https://github.com/aiberk/embedded-systems-platform).
 
-## Prototype
+## Prototype Overview
+
+### Framework
 
 In the first phase, this project will complete a smart glove that can recognize gestures.
 
@@ -16,15 +18,17 @@ The configuration structure is as follows:
 
 - [Demo Video](https://youtube.com/shorts/qYl0_Sqa9_Q?si=NIhDoCjUwTQr8ySr)
 
-<img src="docs/readme/v1/framework.png" alt="Framework Structure" width="450"/>
+<img src="docs/readme/v2/framework.png" alt="Framework Structure" width="450"/>
 
 The ROS framework is:
 
 <img src="docs/readme/v1/ros.png" alt="Framework Structure" width="450"/>
 
+### Phisical Implementation
+
 The physical prototype looks like this:
 
-<img src="docs/readme/v1/prototype.jpg" alt="Physical Prototype" width="350"/>
+<img src="docs/readme/v2/all_sensors.jpg" alt="Physical Prototype" width="350"/>
 
 The code deployed on the Raspberry Pi 4B is stored separately in the following repository:
 
@@ -52,17 +56,31 @@ MPU9250:    VCC
 
 ```
 
-### Recognize the gestures
+### GUI
+
+When running the essential scripts, there is also a GUI window recognize the status of sensors:
+
+<img src="docs/readme/v2/gui_1.png" alt="Physical Prototype" width="350"/>
+
+<img src="docs/readme/v2/gui_2.png" alt="Physical Prototype" width="350"/>
+
+## Gesture Recognition Module
+
+### Recognize the gestures (IMU Sensor)
 
 Using gravity detection from the MPU9250, we've implemented UP and DOWN detection:
 
 <img src="docs/readme/v1/detect_1.png" alt="Upward Detection" width="350"/> <img src="docs/readme/v1/detect_2.png" alt="Downward Detection" width="350"/>
 
-### Recgnize the press
+### Recgnize the press (Force Sensor)
 
 Using force sensor from FSR402:
 
 <img src="docs/readme/v2/fsr402.jpg" alt="Force Sensor" width="350"/>
+
+<img src="docs/readme/v2/fsr402_real.jpg" alt="Force Sensor" width="350"/>
+
+<img src="docs/readme/v2/all_sensors.jpg" alt="Force Sensor" width="350"/>
 
 FSR402 output analogue data, so the main.py is uploaded into PICO W:
 
