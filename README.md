@@ -6,6 +6,9 @@ In first stage, the project will collabrate with other teams to explore the pote
 - Collaborate with [Qian Li](https://www.qianliportfolio.com/project2), on Sign Language Recognition.
 - Collaborate with project team at Brandeis Robotics Lab, on [IoT platform](https://github.com/aiberk/embedded-systems-platform).
 
+<img src="docs/readme/v2/glove.png" alt="Glove" width="450"/>
+
+
 ## Prototype Overview
 
 ### Framework
