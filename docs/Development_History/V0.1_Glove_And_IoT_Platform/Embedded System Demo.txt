@@ -1,0 +1,26 @@
+Embedded System Demo:
+
+Delete the device, 
+
+settings: updateInterval (number)
+
+=> Register a new device and change the ID
+
+[Add New Device]
+Name: Glove
+Type: Controller
+Setting Name: updateInterval
+Setting Type: number
+
+
+--------------------------
+
+robot arm: PX-100
+
+---------------------------
+
+Glove连接：
+
+连上充电宝后就能通过ssh连接
+
+关机的时候输入 sudo shutdown -h now

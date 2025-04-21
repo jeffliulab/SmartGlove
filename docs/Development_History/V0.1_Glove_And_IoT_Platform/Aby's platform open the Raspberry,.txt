@@ -1,0 +1,5 @@
+Aby's platform: open the Raspberry, click the icon on the desktop
+
+Platform:
+Conditions: control the time interval
+Devices: manage IoT devices
