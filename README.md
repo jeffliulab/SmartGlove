@@ -3,11 +3,17 @@
 This project aims to design a smart glove that can do many things, includes recognize gestures, real-to-sim in virtual environment, control devices, etc.
 
 In first stage, the project will collabrate with other teams to explore the potential and capbalities, all together aim to build an universal smart glove.
+
+[Demo Video](https://www.youtube.com/watch?v=yzfBem-gO0Q):
+
+![1751419760912](image/README/1751419760912.png)
+
+Collaboration:
+
 - Collaborate with [Qian Li](https://www.qianliportfolio.com/project2), on Sign Language Recognition.
 - Collaborate with project team at Brandeis Robotics Lab, on [IoT platform](https://github.com/aiberk/embedded-systems-platform).
 
 <img src="docs/readme/v2/glove.png" alt="Glove" width="450"/>
-
 
 ## Prototype Overview
 
@@ -18,8 +24,6 @@ In the first phase, this project will complete a smart glove that can recognize 
 The project adopts a ROS architecture, with Ubuntu 22.04 and ROS Humble installed on both Raspberry Pi 4B and PC (virtual machine) to facilitate future expansion and implementation of complex functions.
 
 The configuration structure is as follows:
-
-- [Demo Video](https://youtube.com/shorts/qYl0_Sqa9_Q?si=NIhDoCjUwTQr8ySr)
 
 <img src="docs/readme/v2/framework.png" alt="Framework Structure" width="450"/>
 
@@ -40,6 +44,7 @@ https://github.com/jeffliulab/SmartGlove_GloveSide
 The wiring diagram is shown below:
 
 - Pico W
+
 ```
 (Pin 36) 3V3(OUT) ---- [ FSR402 ] ----+---- (Pin 31) GPIO26 (ADC0)
                                       |
@@ -49,6 +54,7 @@ The wiring diagram is shown below:
 ```
 
 - Raspberry Pi 4b
+
 ```
 PICO W: USB-A
 Power: USB-C
@@ -98,3 +104,9 @@ while True:
 ```
 
 On Raspberry Pi 4b, use serial to read the data.
+
+## Robot Arm
+
+The glove can control the robot arm. (See [Demo Video](https://www.youtube.com/watch?v=yzfBem-gO0Q).)
+
+![1751419900912](image/README/1751419900912.png)
